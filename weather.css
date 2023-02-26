@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.weatherApp {
+    background-image: url("C:/Users/gagan/Desktop/WEB class/weather/robert-lukeman-_RBcxo9AU-U-unsplash.jpg"); /*css should haveforward slash */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.location {
+    text-align: right;
+    padding: 60px 130px 0px 0px;
+}
+
+.location h3,
+.location h5 {
+    margin: 0px;
+    color: white;
+}
+
+.information {
+    padding: 0px 110px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.temp_information h2 {
+    font-size: 50px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    height: 30px;
+    width: 400px;
+}
+
+.search button {
+    border: 0;
+    background-color: rgb(24, 120, 215);
+    padding: 0px 30px;
+    font-size: 15px;
+}
+#temparature{
+    color: white;
+}
+
